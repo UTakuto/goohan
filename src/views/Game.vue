@@ -1,8 +1,158 @@
 <template>
+    <div class="logo ms-3">
+        <svg
+            class="mt-5 animate__animated animate__bounceIn"
+            xmlns="http://www.w3.org/2000/svg"
+            width="230"
+            height="226"
+            viewBox="0 0 230 226"
+            fill="none"
+        >
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M229.942 139.447C229.04 169.89 220.045 203.562 194.23 219.775C170.538 234.656 141.728 214.247 113.802 212.391C89.448 210.771 63.9522 222.92 43.4146 209.747C19.3138 194.289 -1.45055 168.013 0.0795441 139.447C1.57742 111.482 31.5863 96.9036 50.5631 76.2866C71.0823 53.9938 83.8129 20.3488 113.802 15.8949C145.871 11.1321 176.943 30.6137 199.134 54.2214C220.652 77.1124 230.871 108.062 229.942 139.447Z"
+                fill="#FF8D3B"
+            />
+            <circle cx="142.882" cy="18.5" r="18.5" fill="white" />
+            <rect x="61" y="79" width="130" height="88" rx="26" fill="white" />
+            <circle cx="96.8822" cy="18.5" r="18.5" fill="white" />
+            <ellipse cx="144.882" cy="16" rx="11.5" ry="11" fill="black" />
+            <ellipse cx="98.8822" cy="16" rx="11.5" ry="11" fill="black" />
+            <path
+                d="M119.509 120.211C119.509 126.169 114.694 131 108.755 131C102.815 131 98 126.169 98 120.211C98 114.252 102.815 109.421 108.755 109.421C114.694 109.421 119.509 114.252 119.509 120.211Z"
+                fill="#EDEDED"
+            />
+            <path
+                d="M127.038 109.421C127.038 115.38 122.223 120.211 116.283 120.211C110.343 120.211 105.528 115.38 105.528 109.421C105.528 103.462 110.343 98.6317 116.283 98.6317C122.223 98.6317 127.038 103.462 127.038 109.421Z"
+                fill="#EDEDED"
+            />
+            <path
+                d="M139.943 119.132C139.943 125.09 135.128 129.921 129.189 129.921C123.249 129.921 118.434 125.09 118.434 119.132C118.434 113.173 123.249 108.342 129.189 108.342C135.128 108.342 139.943 113.173 139.943 119.132Z"
+                fill="#EDEDED"
+            />
+            <path
+                d="M137.792 100.789C137.792 106.748 132.977 111.579 127.038 111.579C121.098 111.579 116.283 106.748 116.283 100.789C116.283 94.8306 121.098 90 127.038 90C132.977 90 137.792 94.8306 137.792 100.789Z"
+                fill="#EDEDED"
+            />
+            <path
+                d="M147.472 109.421C147.472 115.38 142.657 120.211 136.717 120.211C130.777 120.211 125.962 115.38 125.962 109.421C125.962 103.462 130.777 98.6317 136.717 98.6317C142.657 98.6317 147.472 103.462 147.472 109.421Z"
+                fill="#EDEDED"
+            />
+            <path
+                d="M155 119.132C155 125.09 150.185 129.921 144.245 129.921C138.306 129.921 133.491 125.09 133.491 119.132C133.491 113.173 138.306 108.342 144.245 108.342C150.185 108.342 155 113.173 155 119.132Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M149.772 109.876C147.849 108.72 147.663 108.48 147.02 106.325L131.19 118.677C133.113 119.833 133.3 120.073 133.943 122.227L149.772 109.876Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M142.718 108.451C139.002 108.986 136.814 106.655 137.572 102.965L128.565 111.469C132.282 110.935 134.469 113.266 133.712 116.955L142.718 108.451Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M139.346 109.527C137.006 110.728 136.428 110.728 134.088 109.527V128.736C136.428 127.535 137.006 127.535 139.346 128.736V109.527Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M137.953 110.381C133.09 113.901 128.274 112.228 126.621 106.446L122.575 118.171C127.438 114.652 132.254 116.325 133.908 122.107L137.953 110.381Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M135.263 113.198C130.338 120.701 122.731 120.932 117.362 113.742L117.737 126.144C122.661 118.642 130.269 118.41 135.638 125.6L135.263 113.198Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M140.228 99.2224C138.011 98.4543 137.742 98.2146 136.722 96.0959L123.527 110.988C125.744 111.756 126.013 111.995 127.033 114.114L140.228 99.2224Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M126.414 106.325C125.771 108.48 125.585 108.72 123.662 109.876L139.491 122.227C140.134 120.073 140.321 119.833 142.244 118.677L126.414 106.325Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M129.273 101.634C127.272 103.56 125.728 103.56 123.727 101.634V117.209C125.728 115.283 127.272 115.283 129.273 117.209V101.634Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M126.285 106.8C124.783 112.814 119.88 114.706 114.747 111.251L119.187 122.832C120.689 116.817 125.592 114.926 130.724 118.38L126.285 106.8Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M119.123 108.094C121.085 110.234 121.213 111.331 119.8 113.869L137.104 111.827C135.142 109.687 135.013 108.59 136.427 106.052L119.123 108.094Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M117.46 95.8824C116.34 98.0828 115.999 98.3561 113.613 98.9694L125.861 114.328C126.981 112.128 127.322 111.855 129.707 111.241L117.46 95.8824Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M116.5 102.947C117.403 107.385 114.768 110.184 110.3 109.533L119.292 118.053C118.389 113.615 121.024 110.816 125.492 111.467L116.5 102.947Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M130.542 108.428C127.817 108.081 127.241 107.648 126.146 105.12L114.929 120.125C117.655 120.472 118.23 120.904 119.325 123.432L130.542 108.428Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M121.328 111.768C119.44 113.797 117.892 113.879 115.801 112.06L116.615 127.574C118.504 125.545 120.052 125.464 122.142 127.282L121.328 111.768Z"
+                fill="#EDEDED"
+            />
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M105.765 107.169C105.27 109.495 105.055 109.804 103.045 111.067L119.273 122.462C119.768 120.136 119.983 119.827 121.992 118.564L105.765 107.169Z"
+                fill="#EDEDED"
+            />
+            <path
+                d="M156 121H97C97 133.233 105.453 143.611 117.177 147.273V151.399C117.177 152.279 117.945 153 118.883 153H133.947C134.886 153 135.654 152.279 135.654 151.399V147.325C147.464 143.708 156 133.29 156 121Z"
+                fill="#FFC700"
+            />
+        </svg>
+    </div>
+
+    <div class="goohan">
+        <h1 class="fw-bolder">Goohan</h1>
+    </div>
+
+    <p class="modalBtn">Start</p>
+
+    <!-- モーダル背景 -->
     <div class="modalBg"></div>
 
     <!-- モーダル内 -->
     <div class="modalMain">
+        <!-- 閉じる顔の部分 -->
+
         <div class="leftEye">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -17,30 +167,28 @@
         </div>
 
         <div class="modalBtnClose">
-            <a href="rouletteStart.html">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                >
-                    <circle cx="30" cy="30" r="30" fill="white" />
-                    <circle cx="30" cy="30" r="25" fill="#FFC700" />
-                    <path
-                        d="M24 24L36.7279 36.7279"
-                        stroke="white"
-                        stroke-width="6"
-                        stroke-linecap="round"
-                    />
-                    <path
-                        d="M24 36.728L36.7279 24.0001"
-                        stroke="white"
-                        stroke-width="6"
-                        stroke-linecap="round"
-                    />
-                </svg>
-            </a>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                viewBox="0 0 60 60"
+                fill="none"
+            >
+                <circle cx="30" cy="30" r="30" fill="white" />
+                <circle cx="30" cy="30" r="25" fill="#FFC700" />
+                <path
+                    d="M24 24L36.7279 36.7279"
+                    stroke="white"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                />
+                <path
+                    d="M24 36.728L36.7279 24.0001"
+                    stroke="white"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                />
+            </svg>
         </div>
 
         <div class="rightEye">
@@ -57,36 +205,41 @@
         </div>
 
         <h1>ご飯ルーレット</h1>
-        <div class="gourmetWrap">
-            <div>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="44"
-                    height="90"
-                    viewBox="0 0 44 90"
-                    fill="none"
+
+        <!-- 追加、選択部分 -->
+        <div class="addBox">
+            <p class="addStyle">たこ焼き</p>
+            <p class="addStyle">お好み焼き</p>
+            <p class="addStyle">ラーメン</p>
+            <p class="addStyle">starbucks</p>
+
+            <!-- 追加ボタン -->
+
+            <p class="addBtn">
+                <a href="#"
+                    ><span
+                        ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="8"
+                            height="8"
+                            viewBox="0 0 8 8"
+                            fill="none"
+                        >
+                            <path
+                                d="M1 4H7"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            />
+                            <path
+                                d="M4 7L4 1"
+                                stroke="black"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            /></svg></span
+                    >追加</a
                 >
-                    <path
-                        d="M35.1865 9.88157L30.2597 28.2686C29.9451 29.4427 28.7461 30.1434 27.5808 29.8312L27.0151 29.6796C25.8525 29.3681 25.1618 28.161 25.4764 26.987L30.4257 8.51584C31.2373 5.48716 29.4581 4.03637 27.5161 3.51602C25.5768 2.99638 23.3105 3.3632 22.499 6.39188L17.5497 24.863C17.2351 26.0371 16.0334 26.7371 14.8683 26.4249L14.3053 26.274C13.1402 25.9618 12.452 24.7554 12.7666 23.5814L17.6934 5.1943C19.1468 -0.229948 11.4237 -2.10223 10.0034 3.19846C8.30292 9.54462 5.29896 20.7556 5.29896 20.7556C2.64981 30.4962 4.28418 33.6453 7.28591 37.7069C9.70579 40.9792 11.9613 43.0813 10.3327 49.1595L1.02877 83.8821C0.383362 86.2908 1.79635 88.764 4.18925 89.4052L4.7758 89.5624C7.16603 90.2028 9.62898 88.7682 10.2744 86.3595L19.5783 51.6368C21.2069 45.5586 24.2089 44.8651 27.9407 43.2413C32.5737 41.2254 35.5635 39.3154 38.1396 29.5552C38.1396 29.5552 41.1435 18.3442 42.844 11.9981C44.2645 6.69743 36.6399 4.45733 35.1865 9.88157Z"
-                        fill="#FFE792"
-                    />
-                </svg>
-            </div>
-            <p>今日はたこ焼きに決定！</p>
-            <div>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="41"
-                    height="87"
-                    viewBox="0 0 41 87"
-                    fill="none"
-                >
-                    <path
-                        d="M13.4838 0.515987C3.87978 3.08938 -1.35789 14.6775 1.51584 25.4024C3.26483 31.9297 7.91112 36.8539 12.6652 39.4211C16.8383 41.6772 19.5333 43.5533 21.3515 48.7039L30.6447 83.3868C31.2894 85.7926 33.7862 87.2156 36.219 86.5637L36.816 86.4037C39.2488 85.7519 40.6996 83.2711 40.055 80.8653L30.7617 46.1823C29.7608 40.8127 31.1567 37.8404 33.6428 33.8C36.4764 29.1997 38.0381 22.612 36.2891 16.0847C33.4151 5.36006 23.0824 -2.05595 13.4838 0.515987Z"
-                        fill="#FFE792"
-                    />
-                </svg>
-            </div>
+            </p>
         </div>
 
         <!-- ルーレット挿入部分-->
@@ -167,175 +320,66 @@
             </figure>
         </div>
 
-        <!-- シェアボタン -->
-        <p class="btnStyle modalOpen jsModalOpen">SHARE</p>
-
-        <!-- モーダル本体 -->
-        <div class="modal jsModal">
-            <div class="modalContainer">
-                <!-- モーダル内部のコンテンツ -->
-                <div class="modalContent">
-                    <div class="modalHeader">
-                        <a href="#" class="jsModalClose">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                viewBox="0 0 16 16"
-                                fill="none"
-                            >
-                                <circle
-                                    cx="7.59998"
-                                    cy="7.59998"
-                                    r="7.59998"
-                                    fill="white"
-                                />
-                                <circle
-                                    cx="7.59992"
-                                    cy="7.59992"
-                                    r="6.33331"
-                                    fill="#FFC700"
-                                />
-                                <path
-                                    d="M6.08008 6.08008L9.30447 9.30447"
-                                    stroke="white"
-                                    stroke-width="2.2"
-                                    stroke-linecap="round"
-                                />
-                                <path
-                                    d="M6.08008 9.30444L9.30447 6.08005"
-                                    stroke="white"
-                                    stroke-width="2.2"
-                                    stroke-linecap="round"
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="shareWrap">
-                        <p class="shareBox">
-                            <a href="#">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="0,0,256,256"
-                                    width="30px"
-                                    height="30px"
-                                >
-                                    <g
-                                        fill="#ffffff"
-                                        fill-rule="nonzero"
-                                        stroke="none"
-                                        stroke-width="1"
-                                        stroke-linecap="butt"
-                                        stroke-linejoin="miter"
-                                        stroke-miterlimit="10"
-                                        stroke-dasharray=""
-                                        stroke-dashoffset="0"
-                                        style="mix-blend-mode: normal"
-                                    >
-                                        <g transform="scale(5.33333,5.33333)">
-                                            <path
-                                                d="M23.00781,5c-11.40768,0 -21.00195,7.5508 -21.00195,17.23633c0,8.6379 7.60149,15.64823 17.5,16.99609c0.22775,0.04944 0.47155,0.12875 0.62695,0.19727c-0.01477,0.08546 0.02039,0.48163 -0.02734,0.84375v0.00195c-0.01285,0.07706 -0.22441,1.34001 -0.26953,1.60352l0.00195,-0.00195c-0.07512,0.43302 -0.3159,1.15659 0.35547,2.17188c0.33568,0.50764 1.09204,0.93876 1.76953,0.95117c0.67749,0.01241 1.24611,-0.21027 1.86914,-0.55273c4.54802,-2.50091 9.48935,-5.32298 13.38281,-8.86719c3.89346,-3.54421 6.79102,-7.94093 6.79102,-13.34375c-0.00005,-9.68519 -9.59036,-17.23633 -20.99805,-17.23633zM23.00781,8c10.09432,0 17.99805,6.56751 17.99805,14.23633c0,4.34218 -2.271,7.90296 -5.81055,11.125c-3.39409,3.08964 -7.90844,5.73188 -12.25195,8.13281c0.05754,-0.34449 0.12891,-0.77539 0.12891,-0.77539l0.00391,-0.02344l0.00391,-0.02344c0.07502,-0.56268 0.2849,-1.40688 -0.15625,-2.50977l-0.00195,-0.00195v-0.00195c-0.33359,-0.8248 -0.95125,-1.18332 -1.44531,-1.41992c-0.49406,-0.23661 -0.96163,-0.35831 -1.34961,-0.44141l-0.05859,-0.01172l-0.06055,-0.00781c-8.78831,-1.15625 -15.00195,-7.15378 -15.00195,-14.04102c0,-7.66847 7.90764,-14.23633 18.00195,-14.23633zM18.33398,17.13672c-0.564,0 -1.02344,0.45563 -1.02344,1.01563v7.69336c0,0.561 0.45844,1.01563 1.02344,1.01563c0.564,0 1.02344,-0.45563 1.02344,-1.01562v-7.69336c0,-0.56 -0.45844,-1.01562 -1.02344,-1.01562zM21.85352,17.13672c-0.11,0 -0.22017,0.01773 -0.32617,0.05273c-0.418,0.139 -0.69922,0.52589 -0.69922,0.96289v7.69336c0,0.561 0.46039,1.01563 1.02539,1.01563c0.566,0 1.02539,-0.45563 1.02539,-1.01562v-4.75781l3.97461,5.36719c0.192,0.254 0.49836,0.40625 0.81836,0.40625c0.109,0 0.21822,-0.01773 0.32422,-0.05273c0.42,-0.137 0.70117,-0.52389 0.70117,-0.96289v-7.69531c0,-0.56 -0.45844,-1.01367 -1.02344,-1.01367c-0.565,0 -1.02539,0.45367 -1.02539,1.01367v4.76172l-3.97656,-5.36914c-0.192,-0.254 -0.49936,-0.40625 -0.81836,-0.40625zM11.4668,17.13867c-0.564,0 -1.02344,0.45367 -1.02344,1.01367v7.69531c0,0.561 0.45844,1.01563 1.02344,1.01563h3.87891c0.565,0 1.02248,-0.45758 1.02148,-1.01758c0,-0.56 -0.45648,-1.01562 -1.02148,-1.01562h-2.85742v-6.67773c0,-0.56 -0.45648,-1.01367 -1.02148,-1.01367zM31.0957,17.13867c-0.564,0 -1.02344,0.45563 -1.02344,1.01563v0.00195v3.8418v0.00195v0.00195v3.84375c0,0.561 0.46044,1.01563 1.02344,1.01563h3.87891c0.565,0 1.02539,-0.45563 1.02539,-1.01562c0,-0.56 -0.46039,-1.01562 -1.02539,-1.01562h-2.85547v-1.81641h2.85547c0.566,0 1.02539,-0.45563 1.02539,-1.01562c0,-0.561 -0.46039,-1.01562 -1.02539,-1.01562v0.00391h-2.85547v-1.81641h2.85547c0.566,0 1.02539,-0.45563 1.02539,-1.01562c0,-0.56 -0.46039,-1.01562 -1.02539,-1.01562z"
-                                            ></path>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </a>
-                            LINE
-                        </p>
-
-                        <p class="shareBox">
-                            <a href="#">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="29"
-                                    viewBox="0 0 28 29"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M11.7167 16.4142L2.7822 27H4.8994L12.6573 17.8085L18.8534 27H26L16.6302 13.1008L26 2H23.8827L15.6902 11.7065L9.14656 2H2L11.7173 16.4142H11.7167ZM14.6167 12.9784L15.5661 14.3624L23.1198 25.3754H19.8677L13.7718 16.4876L12.8224 15.1035L4.8984 3.55071H8.15048L14.6167 12.9778V12.9784Z"
-                                        fill="white"
-                                    />
-                                </svg>
-                            </a>
-                            X
-                        </p>
-
-                        <p class="shareBox">
-                            <a href="#">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="30"
-                                    height="30"
-                                    viewBox="0 0 30 30"
-                                    fill="none"
-                                >
-                                    <path
-                                        d="M8.78763 0.104906C7.19163 0.180206 6.10172 0.434906 5.14892 0.809306C4.16282 1.19361 3.32702 1.70931 2.49542 2.54391C1.66382 3.37851 1.15172 4.21491 0.770124 5.20251C0.400824 6.15741 0.150624 7.24821 0.0801243 8.84511C0.00962433 10.442 -0.00597568 10.9553 0.00182432 15.0287C0.00962432 19.1021 0.0276243 19.6127 0.105024 21.2129C0.181224 22.8086 0.435024 23.8982 0.809424 24.8513C1.19432 25.8374 1.70942 26.6729 2.54432 27.5048C3.37922 28.3367 4.21502 28.8476 5.20502 29.2298C6.15902 29.5985 7.25013 29.8499 8.84673 29.9198C10.4433 29.9897 10.9572 30.0059 15.0294 29.9981C19.1016 29.9903 19.6143 29.9723 21.2142 29.8964C22.8141 29.8205 23.898 29.5649 24.8514 29.1923C25.8375 28.8065 26.6736 28.2923 27.5049 27.4571C28.3362 26.6219 28.848 25.7849 29.2293 24.7967C29.5989 23.8427 29.85 22.7516 29.9193 21.1562C29.9892 19.5551 30.0057 19.0439 29.9979 14.9711C29.9901 10.8983 29.9718 10.3877 29.8959 8.78811C29.82 7.18851 29.5659 6.10221 29.1918 5.14851C28.8063 4.16241 28.2918 3.32751 27.4572 2.49501C26.6226 1.66251 25.785 1.15101 24.7971 0.770606C23.8425 0.401306 22.752 0.149606 21.1554 0.0806064C19.5588 0.0116064 19.0449 -0.00609358 14.9712 0.00170642C10.8975 0.00950642 10.3875 0.0269064 8.78763 0.104906ZM8.96283 27.2213C7.50033 27.1577 6.70622 26.9147 6.17702 26.7113C5.47622 26.4413 4.97702 26.1149 4.44962 25.5926C3.92222 25.0703 3.59822 24.5693 3.32462 23.87C3.11912 23.3408 2.87162 22.5476 2.80322 21.0851C2.72882 19.5044 2.71322 19.0298 2.70452 15.0251C2.69582 11.0204 2.71112 10.5464 2.78042 8.96511C2.84282 7.50381 3.08732 6.70881 3.29042 6.17991C3.56042 5.47821 3.88562 4.97991 4.40912 4.45281C4.93262 3.92571 5.43212 3.60111 6.13202 3.32751C6.66062 3.12111 7.45383 2.87571 8.91573 2.80611C10.4976 2.73111 10.9716 2.71611 14.9757 2.70741C18.9798 2.69871 19.455 2.71371 21.0375 2.78331C22.4988 2.84691 23.2941 3.08901 23.8224 3.29331C24.5235 3.56331 25.0224 3.88761 25.5495 4.41201C26.0766 4.93641 26.4015 5.43411 26.6751 6.13551C26.8818 6.66261 27.1272 7.45551 27.1962 8.91831C27.2715 10.5002 27.2886 10.9745 27.2958 14.9783C27.303 18.9821 27.2889 19.4576 27.2196 21.0383C27.1557 22.5008 26.9133 23.2952 26.7096 23.825C26.4396 24.5255 26.1141 25.025 25.5903 25.5518C25.0665 26.0786 24.5676 26.4032 23.8674 26.6768C23.3394 26.8829 22.5453 27.1289 21.0846 27.1985C19.5027 27.2729 19.0287 27.2885 15.0231 27.2972C11.0175 27.3059 10.545 27.2897 8.96312 27.2213M21.1911 6.98301C21.1917 7.33904 21.2979 7.6869 21.4962 7.98259C21.6945 8.27828 21.976 8.50852 22.3052 8.64419C22.6344 8.77986 22.9964 8.81487 23.3454 8.74478C23.6945 8.6747 24.015 8.50267 24.2662 8.25046C24.5175 7.99825 24.6884 7.67718 24.7572 7.32786C24.826 6.97853 24.7897 6.61666 24.6528 6.28799C24.5159 5.95932 24.2846 5.67862 23.9882 5.4814C23.6918 5.28418 23.3436 5.17929 22.9875 5.18001C22.5102 5.18096 22.0529 5.37144 21.716 5.70955C21.3791 6.04766 21.1903 6.50572 21.1911 6.98301ZM7.29812 15.0149C7.30652 19.2689 10.7613 22.7096 15.0144 22.7015C19.2675 22.6934 22.7106 19.2389 22.7025 14.9849C22.6944 10.7309 19.2387 7.28931 14.985 7.29771C10.7313 7.30611 7.29002 10.7615 7.29812 15.0149ZM9.99992 15.0095C9.99797 14.0206 10.2893 13.0533 10.8371 12.2299C11.3849 11.4066 12.1645 10.7642 13.0774 10.3839C13.9903 10.0037 14.9955 9.90266 15.9658 10.0937C16.9361 10.2847 17.828 10.7591 18.5286 11.457C19.2293 12.1549 19.7072 13.0449 19.9021 14.0144C20.0969 14.984 19.9999 15.9895 19.6233 16.9039C19.2467 17.8183 18.6073 18.6005 17.7862 19.1515C16.965 19.7026 15.9988 19.9977 15.0099 19.9997C14.3533 20.0011 13.7028 19.8731 13.0956 19.623C12.4884 19.373 11.9365 19.0058 11.4712 18.5424C11.006 18.079 10.6366 17.5285 10.3842 16.9223C10.1317 16.3161 10.0011 15.6662 9.99992 15.0095Z"
-                                        fill="white"
-                                    />
-                                </svg>
-                            </a>
-                            Instagram
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <!-- スタートボタン -->
+        <div class="btnWrap">
+            <!-- <p class="btnStyle stopBtn"><a href="rouletteResult.html">NEXT</a></p> -->
+            <router-link to="/result" class="btnStyle stopBtn"
+                >Next</router-link
+            >
+            <p class="btnStyle startBtn"><a class="start">START</a></p>
         </div>
     </div>
 </template>
 
 <style>
-html {
-    font-size: 62.5%;
+.modalBtn {
+    width: 150px;
+    height: 35px;
+    margin: 30px auto 0;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    background: #ffc700;
+    opacity: 1;
 }
 
-body {
-    background-color: #fbf9ec;
-}
-
+/*モーダル用*/
 .modalBg {
-    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
 }
+
+/*
+モーダル幅
+*/
 
 .modalMain {
-    padding: 50px 0 0 0;
-    opacity: 1;
-    bottom: -52px;
+    width: 100%;
+    height: 90vh;
+    position: fixed;
+    bottom: -680px;
+    left: 0;
+    z-index: 11;
+    opacity: 0;
+    padding: 50px 0 0 30px;
+    background: #ff8d3b;
+    border-radius: 20px 20px 0 0;
 }
 
-.mainBox {
-    background-color: #ff8d3b;
-}
-
-h1 {
+.modalMain h1 {
     font-size: 2rem;
-    color: #fff;
-    padding-left: 30px;
-}
-
-.gourmetWrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    /* margin: 0 auto; */
-}
-
-.gourmetWrap p {
-    font-size: 2.4rem;
     font-weight: bold;
     color: #fff;
-}
-
-/*ルーレットボックス*/
-.rouletteBox {
-    margin-left: 25px;
-}
-
-.rouletteBox figure {
-    margin: 20px 0 0 80px;
 }
 
 /*
@@ -353,16 +397,116 @@ h1 {
     height: 70px;
 }
 
-.btnStyle {
-    margin-left: 30px;
-    padding-bottom: auto;
+.leftEye {
+    position: absolute;
+    top: -55px;
+    left: 90px;
 }
 
-.btnStyle {
-    /* display: block; */
+.leftEye svg {
+    width: 80px;
+    height: 80px;
+}
+
+.rightEye {
+    position: absolute;
+    top: -55px;
+    left: 260px;
+}
+
+.rightEye svg {
+    width: 80px;
+    height: 80px;
+}
+
+/*追加ボックス*/
+.addBox {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.addBox .addStyle {
+    width: 120px;
+    height: 25px;
+    margin: 10px 10px 0 0;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.addBox .addBtn a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    margin: 10px 20px 0 0;
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+/*ルーレットボックス*/
+.rouletteBox {
+    width: 320px;
+    height: 320px;
+    /* background-color: #000; */
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 35px;
+}
+
+.imgStyle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px 50px; */
+}
+
+.imgStyle svg {
+    width: 320px;
+    height: 320px;
+}
+
+.row {
+    overflow: hidden;
+    position: absolute;
+    top: 68px;
+    right: 50px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnWrap {
+    display: flex;
+    position: relative;
+}
+
+.stopBtn {
+    position: absolute;
+    z-index: -10;
+}
+
+.btnStyle a {
+    display: block;
     width: 200px;
     height: 35px;
-    margin: 0 105px;
+    margin: 0 80px;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
@@ -374,128 +518,115 @@ h1 {
     cursor: pointer;
 }
 
-/*
-share modal setting
-*/
-
-/* モーダルを開くボタン */
-.modalOpen {
-    margin-top: 30px;
+.btnStyle a:hover {
+    text-decoration: none;
+    color: #ff8d3b;
 }
 
-/* モーダルと背景の指定 */
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    /* background: rgba(255, 255, 255, 0.5); */
-    backdrop-filter: blur(5px);
-    padding: 40px 20px;
-    overflow: auto;
+/*モーダル開く下から上*/
+
+@keyframes SlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-1%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-80%);
+    }
+}
+
+/*モーダル閉じる上から下*/
+
+@keyframes SlideDown {
+    0% {
+        opacity: 1;
+        transform: translateY(-80%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-1%);
+    }
+}
+
+.modalMain._slideUp {
+    animation: SlideUp 0.5s ease-in-out forwards;
+}
+
+.modalMain._slideDown {
+    animation: SlideDown 0.5s ease-in-out forwards;
+}
+
+.modalMain._slideNone {
     opacity: 0;
-    visibility: hidden;
-    transition: 0.3s;
-    box-sizing: border-box;
+    animation: SlideDown 0.5s ease-in-out forwards;
 }
 
-/* モーダルの擬似要素の指定 */
-.modal:before {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    margin-left: -0.2em;
-}
-
-/* クラスが追加された時の指定 */
-.modal.is-active {
+.modalSet._slideAll {
     opacity: 1;
-    visibility: visible;
-}
-
-/* モーダル内側の指定 */
-.modalContainer {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 350px;
-    height: 300px;
-    width: 90%;
-}
-
-/* モーダルのコンテンツ部分の指定 */
-.modalContent {
-    background-color: #fff;
-    border-radius: 20px 20px 15px 15px;
-}
-
-.modalHeader {
-    padding: 5px 15px 0 0;
-    border-radius: 20px 20px 0 0;
-    height: 35px;
-    background-color: #ffc700;
-}
-
-.jsModalClose {
-    display: block;
-    margin: 0 0 0 auto;
-    width: 25px;
-    height: 25px;
-}
-
-.jsModalClose svg {
-    width: 25px;
-    height: 25px;
-}
-
-.shareWrap {
-    height: 150px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.shareBox a {
-    display: block;
-    width: 60px;
-    height: 60px;
-    line-height: 80px;
-    border-radius: 50%;
-    background-color: #ffc700;
-}
-
-.shareBox a svg {
-    width: 30px;
-    height: 30px;
+    animation: SlideUp 0.5s ease-in-out forwards;
 }
 </style>
 
 <script>
-//要素を取得
-const modal = document.querySelector(".jsModal"),
-    open = document.querySelector(".jsModalOpen"),
-    close = document.querySelector(".jsModalClose");
+$(function () {
+    var modalBtn = $(".modalBtn");
+    var modalBtnClose = $(".modalBtnClose");
+    var modalBg = $(".modalBg");
+    var modalBbg = $(".modalBbg");
+    var modalMain = $(".modalMain");
+    var modalSub = $(".modalSub");
+    var btnStart = $(".btnStyle");
+    var modalMmain = $(".modalMmain");
+    var start = $(".startBtn");
+    var stop = $(".stopBtn");
 
-//「開くボタン」をクリックしてモーダルを開く
-function modalOpen() {
-    modal.classList.add("is-active");
-}
-open.addEventListener("click", modalOpen);
+    modalBtn.on("click", function (e) {
+        $(this).next(modalBg).fadeIn();
+        $(this).next(modalBg).next(modalMain).removeClass("_slideDown");
+        $(this).next(modalBg).next(modalMain).addClass("_slideUp");
+    });
 
-//「閉じるボタン」をクリックしてモーダルを閉じる
-function modalClose() {
-    modal.classList.remove("is-active");
-}
-close.addEventListener("click", modalClose);
+    //
+    //鼻の部分をクリックしたら閉じる
+    //
 
-//「モーダルの外側」をクリックしてモーダルを閉じる
-addEventListener("click", modalOut);
-function modalOut(e) {
-    if (e.target == modal) {
-        modal.classList.remove("is-active");
-    }
-}
+    modalBtnClose.on("click", function (e) {
+        modalBg.fadeOut();
+        modalMain.removeClass("_slideUp");
+        modalMain.addClass("_slideDown");
+    });
+
+    $(function () {
+        start.on("click", function () {
+            // startBtnがクリックされたときにstopBtnのz-indexを削除し、表示する
+            stop.css("z-index", "1");
+        });
+    });
+});
+
+//
+//モーダルの外をクリックしたら閉じるを支えている部分
+//modalMainをクリックしても閉じないようにする
+//
+
+// modalMain.on("click", function (e) {
+//     e.stopPropagation();
+// });
+
+//
+//モーダルの外をクリックしたら閉じる
+//
+
+// modalBg.on("click", function () {
+//     $(this).fadeOut();
+//     $(this).next(modalMain).removeClass("_slideUp");
+//     $(this).next(modalMain).addClass("_slideDown");
+// });
+
+// btnStart.on("click", function (e) {
+//     $(this).next(modalWrap).fadeIn();
+//     $(this).next(modalMain).next(modalWrap).removeClass("_slideDown");
+//     $(this).next(modalMain).next(modalWrap).addClass("_slideUp");
+// });
 </script>

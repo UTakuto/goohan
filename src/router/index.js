@@ -29,9 +29,15 @@ const router = createRouter({
         },
 
         {
-            path: "/gme",
+            path: "/game",
             name: "Game",
             component: () => import("@/views/Game.vue"),
+        },
+
+        {
+            path: "/result",
+            name: "Result",
+            component: () => import("@/views/Result.vue"),
         },
     ],
 });
