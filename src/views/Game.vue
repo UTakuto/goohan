@@ -332,54 +332,57 @@
 </template>
 
 <style>
-.modalBtn {
-    width: 150px;
-    height: 35px;
-    margin: 30px auto 0;
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 35px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 25px;
-    background: #ffc700;
-    opacity: 1;
+html {
+    font-size: 62.5%;
 }
 
-/*モーダル用*/
+body {
+    background-color: #fbf9ec;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
 .modalBg {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: none;
+    display: block;
 }
-
-/*
-モーダル幅
-*/
 
 .modalMain {
-    width: 100%;
-    height: 90vh;
-    position: fixed;
-    bottom: -680px;
-    left: 0;
-    z-index: 11;
-    opacity: 0;
-    padding: 50px 0 0 30px;
-    background: #ff8d3b;
-    border-radius: 20px 20px 0 0;
+    padding: 50px 0 0 0;
+    opacity: 1;
+    bottom: -52px;
 }
 
-.modalMain h1 {
+.mainBox {
+    background-color: #ff8d3b;
+}
+
+h1 {
     font-size: 2rem;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.gourmetWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* margin: 0 auto; */
+}
+
+.gourmetWrap p {
+    font-size: 2.4rem;
     font-weight: bold;
     color: #fff;
+}
+
+/*ルーレットボックス*/
+.rouletteBox {
+    margin-left: 25px;
+}
+
+.rouletteBox figure {
+    margin: 20px 0 0 80px;
 }
 
 /*
@@ -397,116 +400,16 @@
     height: 70px;
 }
 
-.leftEye {
-    position: absolute;
-    top: -55px;
-    left: 90px;
+.btnStyle {
+    margin-left: 30px;
+    padding-bottom: auto;
 }
 
-.leftEye svg {
-    width: 80px;
-    height: 80px;
-}
-
-.rightEye {
-    position: absolute;
-    top: -55px;
-    left: 260px;
-}
-
-.rightEye svg {
-    width: 80px;
-    height: 80px;
-}
-
-/*追加ボックス*/
-.addBox {
-    margin: 40px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.addBox .addStyle {
-    width: 120px;
-    height: 25px;
-    margin: 10px 10px 0 0;
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: 25px;
-    border-radius: 25px;
-    background-color: #fff;
-}
-
-.addBox .addBtn a {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 50px;
-    height: 25px;
-    margin: 10px 20px 0 0;
-    color: #000;
-    text-decoration: none;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 25px;
-    border-radius: 15px;
-    background-color: #fff;
-}
-
-/*ルーレットボックス*/
-.rouletteBox {
-    width: 320px;
-    height: 320px;
-    /* background-color: #000; */
-    /* margin-top: 100px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-left: 35px;
-}
-
-.imgStyle {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin: 50px 50px; */
-}
-
-.imgStyle svg {
-    width: 320px;
-    height: 320px;
-}
-
-.row {
-    overflow: hidden;
-    position: absolute;
-    top: 68px;
-    right: 50px;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btnWrap {
-    display: flex;
-    position: relative;
-}
-
-.stopBtn {
-    position: absolute;
-    z-index: -10;
-}
-
-.btnStyle a {
-    display: block;
+.btnStyle {
+    /* display: block; */
     width: 200px;
     height: 35px;
-    margin: 0 80px;
+    margin: 0 105px;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
@@ -518,53 +421,168 @@
     cursor: pointer;
 }
 
-.btnStyle a:hover {
-    text-decoration: none;
-    color: #ff8d3b;
+/*
+share modal setting
+*/
+
+/* モーダルを開くボタン */
+.modalOpen {
+    margin-top: 30px;
 }
 
-/*モーダル開く下から上*/
-
-@keyframes SlideUp {
-    0% {
-        opacity: 0;
-        transform: translateY(-1%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(-80%);
-    }
-}
-
-/*モーダル閉じる上から下*/
-
-@keyframes SlideDown {
-    0% {
-        opacity: 1;
-        transform: translateY(-80%);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(-1%);
-    }
-}
-
-.modalMain._slideUp {
-    animation: SlideUp 0.5s ease-in-out forwards;
-}
-
-.modalMain._slideDown {
-    animation: SlideDown 0.5s ease-in-out forwards;
-}
-
-.modalMain._slideNone {
+/* モーダルと背景の指定 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 0.5); */
+    backdrop-filter: blur(5px);
+    padding: 40px 20px;
+    overflow: auto;
     opacity: 0;
-    animation: SlideDown 0.5s ease-in-out forwards;
+    visibility: hidden;
+    transition: 0.3s;
+    box-sizing: border-box;
 }
 
-.modalSet._slideAll {
+/* モーダルの擬似要素の指定 */
+.modal:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-left: -0.2em;
+}
+
+/* クラスが追加された時の指定 */
+.modal.is-active {
     opacity: 1;
-    animation: SlideUp 0.5s ease-in-out forwards;
+    visibility: visible;
+}
+
+/* モーダル内側の指定 */
+.modalContainer {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 350px;
+    height: 300px;
+    width: 90%;
+}
+
+/* モーダルのコンテンツ部分の指定 */
+.modalContent {
+    background-color: #fff;
+    border-radius: 20px 20px 15px 15px;
+}
+
+.modalHeader {
+    padding: 5px 15px 0 0;
+    border-radius: 20px 20px 0 0;
+    height: 35px;
+    background-color: #ffc700;
+}
+
+.jsModalClose {
+    display: block;
+    margin: 0 0 0 auto;
+    width: 25px;
+    height: 25px;
+}
+
+.jsModalClose svg {
+    width: 25px;
+    height: 25px;
+}
+
+.shareWrap {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shareBox a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: #ffc700;
+}
+
+.shareBox a svg {
+    width: 30px;
+    height: 30px;
+}
+
+div.roulette {
+    margin: 5px 30px 0 0;
+    overflow: hidden;
+}
+
+.roulette img {
+    width: 200px;
+    height: 200px;
+}
+
+div.roulette_container {
+    /* width: 200px; */
+    height: 180px;
+    margin: auto;
+}
+
+.btn_container {
+    margin: 20px;
+    text-align: center;
+}
+.btn_container .start {
+    margin-right: 20px;
+}
+.log_container {
+    margin-left: 25px;
+    margin-top: 80px;
+}
+.demo_label {
+    border-left: 5px solid gray;
+    padding-left: 5px;
+    font-size: 20px;
+}
+#msg {
+    border: 1px solid #eee;
+    padding: 10px 20px;
+    overflow-y: scroll;
+    max-height: 100px;
+}
+div.param_label {
+    margin: 20px 0px 10px 0px;
+}
+#stopImageNumber {
+    width: 20px;
+}
+.param_name {
+    font-weight: bold;
+}
+.image_sample img {
+    width: 50px;
+    cursor: pointer;
+}
+.right_container {
+    width: 550px;
+    margin-left: 100px;
+}
+.code_container {
+    margin-top: 50px;
+    width: 500px;
+}
+.label-info {
+    margin-bottom: 3px;
+}
+div.ui-slider {
+    width: 300px;
 }
 </style>
 
@@ -572,6 +590,7 @@
 export default {
     name: "Game",
 };
+
 $(function () {
     var modalBtn = $(".modalBtn");
     var modalBtnClose = $(".modalBtnClose");
