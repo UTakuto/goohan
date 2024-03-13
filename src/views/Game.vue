@@ -155,11 +155,11 @@
                     <div class="span4">
                         <div class="roulette_container">
                             <div class="roulette" style="display: none">
-                                <img src="img/tako.png" alt="" />
-                                <img src="img/okonomi.png" alt="" />
-                                <img src="img/ramen.png" alt="" />
-                                <img src="img/starbucks.png" alt="" />
-                                <img src="img/white.png" alt="" />
+                                <img src="../img/tako.png" alt="" />
+                                <img src="../img/okonomi.png" alt="" />
+                                <img src="../img/ramen.png" alt="" />
+                                <img src="../img/starbucks.png" alt="" />
+                                <img src="../img/white.png" alt="" />
                             </div>
                         </div>
                     </div>
