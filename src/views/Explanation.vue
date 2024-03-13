@@ -157,10 +157,8 @@
         </div>
 
         <div class="modalBtn">
-            <a
-                href="/team3/rouletteStart.html"
-                class="text-white text-decoration-none"
-                >Next</a
+            <router-link to="/game" class="text-white text-decoration-none"
+                >Next</router-link
             >
             <!-- <router-link to="/game" class="text-white  text-decoration-none">Next</router-link> -->
         </div>
