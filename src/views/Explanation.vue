@@ -158,7 +158,7 @@
 
         <div class="modalBtn">
             <a
-                href="/team 3/rouletteStart"
+                href="/team3/rouletteStart.html"
                 class="text-white text-decoration-none"
                 >Next</a
             >
