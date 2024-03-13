@@ -474,6 +474,9 @@ share modal setting
 </style>
 
 <script>
+export default {
+    name: "Result",
+};
 //要素を取得
 const modal = document.querySelector(".jsModal"),
     open = document.querySelector(".jsModalOpen"),

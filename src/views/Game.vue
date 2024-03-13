@@ -569,6 +569,9 @@
 </style>
 
 <script>
+export default {
+    name: "Game",
+};
 $(function () {
     var modalBtn = $(".modalBtn");
     var modalBtnClose = $(".modalBtnClose");
